@@ -11,6 +11,10 @@ The name of the constants, the type, the value, or the order in which the consta
 The struct which is being logged does seem to affect the behaviour, the number of fields and the type of the fields seems to affect the behaviour.
 We tried `u64`s, `str`s, `Identity`s, we could not pinpoint how they affected the behaviour as the test failed or passed seemingly randomly
 
+forc version: 0.26
+
+fuels.rs version: 0.26
+
 To reproduce the bug, run
 ```bash
     forc build
