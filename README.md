@@ -12,7 +12,9 @@ The struct which is being logged does seem to affect the behaviour, the number o
 We tried `u64`s, `str`s, `Identity`s, we could not pinpoint how they affected the behaviour as the test failed or passed seemingly randomly
 
 forc version: 0.26
+
 fuels.rs version: 0.26
+
 To reproduce the bug, run
 ```bash
     forc build
