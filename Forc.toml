@@ -1,0 +1,12 @@
+[project]
+authors = ["Sway"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "log-bug"
+
+[constants]
+A = { type = "u64", value = "1" }
+ASSET = { type = "b256", value = "0x0000000000000000000000000000000000000000000000000000000000000000" }
+PRICE = { type = "u64", value = "1" }
+
+[dependencies]
